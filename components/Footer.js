@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='flex items-center gap-4 justify-center text-sm text-gray-700'>
+    <div className='md:flex grid text-center items-center gap-4 justify-center text-sm text-gray-700 space-y-4'>
         <p>Tesla 2023</p>
         <p>Privacy & Legal</p>
         <p>Vehicle Recalls</p>

@@ -9,7 +9,7 @@ const Hero7 = () => {
             Accessories
           </h1>
         </div>
-        <div className="flex gap-4 flex-col h-96">
+        <div className="flex gap-4 flex-col md:h-[60vh] h-[70vh]">
           <div className="flex justify-center mt-auto gap-4">
             <button className="rounded bg-[#3A3E42] px-24 py-2 text-white font-semibold">
               Shop Now

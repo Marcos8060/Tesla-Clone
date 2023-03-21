@@ -12,15 +12,15 @@ const Hero = () => {
 
   return (
     <>
-      <section className="hero_img h-screen py-28">
+      <section className="hero_img h-screen md:py-28 py-32">
         <div className="space-y-4">
           <h1 className="text-center text-black font-bold text-4xl">Model 3</h1>
           <p className="text-center text-black text-xl">
             Leasing starting at $349/mo
           </p>
         </div>
-        <div className="flex gap-4 flex-col h-[60vh]">
-          <div className="flex justify-center mt-auto gap-4">
+        <div className="flex items-center justify-center gap-4 flex-col mx-auto md:h-[60vh] h-[65vh]">
+          <div className="md:flex grid justify-center mt-auto gap-4">
             <button className="rounded bg-[#3A3E42] px-24 py-2 text-white font-semibold">
               Custom Order
             </button>

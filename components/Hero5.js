@@ -12,8 +12,8 @@ const Hero5 = () => {
             Lowest Cost Solar Panels in America
           </p>
         </div>
-        <div className="flex gap-4 flex-col h-96">
-          <div className="flex justify-center mt-auto gap-4">
+        <div className="flex gap-4 flex-col md:h-[60vh] h-[70vh]">
+          <div className="md:flex grid justify-center mt-auto gap-4">
             <button className="rounded bg-[#3A3E42] px-24 py-2 text-white font-semibold">
               Order Now
             </button>

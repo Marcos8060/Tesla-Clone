@@ -10,9 +10,9 @@ const Hero2 = () => {
             Leasing starting at $349/mo
           </p>
         </div>
-        <div className="flex gap-4 flex-col h-96">
-          <div className="flex justify-center mt-auto gap-4">
-            <button className="rounded bg-[#3A3E42] px-24 py-2 text-white font-semibold">
+        <div className="flex items-center justify-center gap-4 flex-col md:h-[60vh] h-[70vh]">
+          <div className="md:flex grid justify-center mt-auto gap-4">
+            <button className="rounded bg-[#3A3E42] py-2 px-24 text-white font-semibold">
               Custom Order
             </button>
             <button className="rounded bg-[#E9E9E8] px-24 py-2 text-black font-semibold">
