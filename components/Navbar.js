@@ -45,7 +45,7 @@ const Navbar = () => {
           </div>
           <div className="md:hidden block">
             <button
-              className="text-secondary text-2xl cursor-pointer"
+              className="text-secondary cursor-pointer text-sm bg-black opacity-40 text-white px-3 py-2 rounded"
               onClick={() => setIsOpen(true)}
             >
               Menu
