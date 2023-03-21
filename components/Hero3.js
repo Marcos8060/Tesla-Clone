@@ -1,14 +1,16 @@
 import React from "react";
 
-const Hero2 = () => {
+const Hero3 = () => {
   return (
     <>
-      <section id="hero2" className="hero2_img h-screen py-24 object-none">
+      <section className="hero3_img h-screen py-28 object-none">
         <div className="space-y-4">
-          <h1 className="text-center text-black font-bold text-4xl">Model Y</h1>
-          <p className="text-center text-black text-xl">
-            Leasing starting at $349/mo
-          </p>
+          <h1 className="text-center text-black font-bold text-4xl">Model S</h1>
+          <div className="text-center">
+            <a href="/" className="text-center text-black underline">
+              Schedule a Demo Drive
+            </a>
+          </div>
         </div>
         <div className="flex gap-4 flex-col h-96">
           <div className="flex justify-center mt-auto gap-4">
@@ -25,4 +27,4 @@ const Hero2 = () => {
   );
 };
 
-export default Hero2;
+export default Hero3;

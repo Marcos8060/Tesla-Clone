@@ -12,14 +12,14 @@ const Hero = () => {
 
   return (
     <>
-      <section className="hero_img h-screen">
+      <section className="hero_img h-screen py-28">
         <div className="space-y-4">
-          <h1 className="text-center text-black font-bold text-2xl">Model 3</h1>
+          <h1 className="text-center text-black font-bold text-4xl">Model 3</h1>
           <p className="text-center text-black text-xl">
             Leasing starting at $349/mo
           </p>
         </div>
-        <div className="flex gap-4 flex-col h-96">
+        <div className="flex gap-4 flex-col h-[60vh]">
           <div className="flex justify-center mt-auto gap-4">
             <button className="rounded bg-[#3A3E42] px-24 py-2 text-white font-semibold">
               Custom Order
@@ -29,12 +29,12 @@ const Hero = () => {
             </button>
           </div>
         </div>
-        <div className="flex items-center justify-center my-4 text-black cursor-pointer">
+        <div className="flex items-center justify-center my-2 text-black cursor-pointer">
           <a href="#hero2">
             <BsChevronDown
             onClick={handleScroll}
               id="hero2"
-              className="text-xl font-bold"
+              className="text-xl font-bold hover:animate-bounce"
             />
           </a>
         </div>
