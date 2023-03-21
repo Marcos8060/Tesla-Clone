@@ -72,3 +72,87 @@
     mix-blend-mode: multiply;
     z-index: -1;
 }
+.hero4_img{
+    background: url('/images/tesla3.jpg');
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.hero4_img::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: #64FFDA; */
+    mix-blend-mode: multiply;
+    z-index: -1;
+}
+.hero5_img{
+    background: url('/images/tesla4.jpg');
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.hero5_img::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: #64FFDA; */
+    mix-blend-mode: multiply;
+    z-index: -1;
+}
+.hero6_img{
+    background: url('/images/tesla7.webp');
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.hero6_img::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: #64FFDA; */
+    mix-blend-mode: multiply;
+    z-index: -1;
+}
+.hero7_img{
+    background: url('/images/tesla8.jpg');
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+}
+.hero7_img::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: #64FFDA; */
+    mix-blend-mode: multiply;
+    z-index: -1;
+}
