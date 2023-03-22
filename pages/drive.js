@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import React, { useState } from "react";
 
@@ -49,7 +50,7 @@ const Drive = () => {
         <></>
       )}
 
-      <div className="flex items-center justify-center gap-4 my-8">
+      <div className="flex items-center justify-center gap-4 mb-24">
         <button
           onClick={() => setToggleTab(1)}
           className={`${
@@ -91,6 +92,7 @@ const Drive = () => {
           Model Y
         </button>
       </div>
+      <Footer />
     </>
   );
 };
