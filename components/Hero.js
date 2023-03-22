@@ -22,9 +22,9 @@ const Hero = () => {
         </div>
         <div className="flex items-center justify-center gap-4 flex-col mx-auto md:h-[60vh] h-[65vh]">
           <div className="md:flex grid justify-center mt-auto gap-4">
-            <button className="rounded bg-[#3A3E42] px-24 py-2 text-white font-semibold">
+            <Link href="/overview" type="button" className="rounded bg-[#3A3E42] px-24 py-2 text-white font-semibold">
               Custom Order
-            </button>
+            </Link>
             <Link href="/drive" type="button" className="rounded bg-[#E9E9E8] px-24 py-2 text-black font-semibold">
               Demo Drive
             </Link>
@@ -35,7 +35,7 @@ const Hero = () => {
             <BsChevronDown
             onClick={handleScroll}
               id="hero2"
-              className="text-xl font-bold hover:animate-bounce"
+              className="text-xl font-bold animate-bounce"
             />
           </a>
         </div>

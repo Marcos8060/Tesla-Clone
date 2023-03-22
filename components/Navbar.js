@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React, { useState, useRef, useEffect } from "react";
 import Drawer from "./drawer";
 
@@ -12,7 +13,7 @@ const Navbar = () => {
           eligible buyers. Learn More
         </p>
         <div className="flex items-center justify-between sm:px-16 px-4 py-2">
-          <div>
+          <Link href="/">
             <svg
               className="tds-icon tds-icon-logo-wordmark tds-site-logo-icon w-32 block"
               viewBox="0 0 342 35"
@@ -24,7 +25,7 @@ const Navbar = () => {
               ></path>
             </svg>
             {/* <p className="px-3 py-1 text-black">Tesla</p> */}
-          </div>
+          </Link>
           <nav className="md:block hidden">
             <ul className="flex items-center gap-8 text-black">
               <li className="">Model S</li>
