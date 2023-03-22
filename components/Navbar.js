@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <>
       <section className="-mb-24 z-40 fixed w-full">
-        <p className="text-center py-4 text-sm text-gray-700 bg-white">
+        <p className="text-center py-4 px-2 text-sm text-gray-700 bg-white">
           New Model 3 and Model Y vehicles qualify for a federal tax credit for
           eligible buyers. Learn More
         </p>

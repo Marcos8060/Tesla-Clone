@@ -9,7 +9,7 @@
 }
 
 .hero_img{
-    object-fit: cover;
+    object-fit: contain;
     background: url('/images/tesla.jpg');
     background-size: cover;
     background-position: center;
