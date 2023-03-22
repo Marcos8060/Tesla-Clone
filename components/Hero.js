@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { BsChevronDown } from "react-icons/bs";
+import Link from "next/link";
 
 const Hero = () => {
 
@@ -24,9 +25,9 @@ const Hero = () => {
             <button className="rounded bg-[#3A3E42] px-24 py-2 text-white font-semibold">
               Custom Order
             </button>
-            <button className="rounded bg-[#E9E9E8] px-24 py-2 text-black font-semibold">
+            <Link href="/drive" type="button" className="rounded bg-[#E9E9E8] px-24 py-2 text-black font-semibold">
               Demo Drive
-            </button>
+            </Link>
           </div>
         </div>
         <div className="flex items-center justify-center my-2 text-black cursor-pointer">
