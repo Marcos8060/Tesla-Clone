@@ -5,6 +5,7 @@ import { TfiWorld } from "react-icons/tfi";
 
 const Overview = () => {
   const [isOpen, setIsOpen] = useState(false);
+
   return (
     <>
       <div className="flex items-center justify-between px-8 py-4">
@@ -34,9 +35,9 @@ const Overview = () => {
       </div>
       <div className="flex px-8">
         <div className="w-9/12">
-          <div className="flex items-center justify-center h-screen">
-            <img src="/images/drive1.png" alt="" />
-          </div>
+            <div className="flex items-center justify-center h-screen">
+              <img src="/images/drive1.png" alt="" />
+            </div>
         </div>
         <div className="w-3/12">
           <section>
@@ -50,9 +51,9 @@ const Overview = () => {
               </p>
             </div>
             <div className="flex flex-col items-center justify-center my-8 space-y-5">
-                <h1 className="font-bold text-4xl">Model 3</h1>
-                <p className="text-gray-700">Est. Delivery: Mar 2023</p>
-                <p className="text-gray-700 underline">Enter Delivery ZIP Code</p>
+              <h1 className="font-bold text-4xl">Model 3</h1>
+              <p className="text-gray-700">Est. Delivery: Mar 2023</p>
+              <p className="text-gray-700 underline">Enter Delivery ZIP Code</p>
             </div>
           </section>
         </div>
