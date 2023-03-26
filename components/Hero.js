@@ -3,6 +3,7 @@ import React from "react";
 import { BsChevronDown } from "react-icons/bs";
 import Link from "next/link";
 
+
 const Hero = () => {
 
         const handleScroll = (e) => {

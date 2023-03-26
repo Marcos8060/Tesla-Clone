@@ -1,10 +1,53 @@
+"use client";
 import React, { useState } from "react";
 import Link from "next/link";
 import OverDrawer from "@/components/overDrawer";
 import { TfiWorld } from "react-icons/tfi";
+import dynamic from "next/dynamic";
+import "owl.carousel/dist/assets/owl.carousel.css";
+import "owl.carousel/dist/assets/owl.theme.default.css";
+import { FaAngleLeft } from "react-icons/fa";
+import { FaAngleRight } from "react-icons/fa";
+import Footer from "@/components/Footer";
+
+var $ = require("jquery");
+if (typeof window !== "undefined") {
+  window.$ = window.jQuery = require("jquery");
+}
+
+const OwlCarousel = dynamic(() => import("react-owl-carousel"), {
+  ssr: false,
+});
 
 const Overview = () => {
   const [isOpen, setIsOpen] = useState(false);
+
+  const rules = {
+    loop: true,
+    center: false,
+    items: 1,
+    margin: 0,
+    autoplay: true,
+    dots: false,
+    autoplayTimeout: 4000,
+    smartSpeed: 450,
+    // nav: true,
+    // navText: [<FaAngleLeft />, <FaAngleRight />],
+    responsive: {
+      0: {
+        items: 1,
+        // nav: true,
+      },
+      600: {
+        items: 1,
+        // nav: true,
+      },
+      1000: {
+        items: 1,
+        // nav: true,
+      },
+    },
+  };
 
   return (
     <>
@@ -33,13 +76,25 @@ const Overview = () => {
           <OverDrawer isOpen={isOpen} setIsOpen={setIsOpen} />
         </div>
       </div>
-      <div className="flex px-8">
-        <div className="w-9/12">
+      <div className="sm:flex flex-col px-8">
+        <div className="sm:w-6/12 w-full mx-auto">
+          <OwlCarousel {...rules}>
             <div className="flex items-center justify-center h-screen">
-              <img src="/images/drive1.png" alt="" />
+              <img className="object-cover" src="/images/drive1.png" alt="" />
             </div>
+            <div className="flex items-center justify-center h-screen">
+              <img className="object-cover" src="/images/drive1.png" alt="" />
+            </div>
+            <div className="flex items-center justify-center h-screen">
+              <img className="object-cover" src="/images/drive1.png" alt="" />
+            </div>
+            <div className="flex items-center justify-center h-screen">
+              <img className="object-cover" src="/images/drive1.png" alt="" />
+            </div>
+          </OwlCarousel>
         </div>
-        <div className="w-3/12">
+
+        <div className="sm:w-3/12 w-full">
           <section>
             <div className="bg-black p-4 rounded text-white">
               <p className="text-sm leading-6">
@@ -58,6 +113,7 @@ const Overview = () => {
           </section>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
